@@ -4,12 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class IndexController {
+public class SedeController {
 
-    @RequestMapping("index")
+    @RequestMapping("cadastrar")
     String index() {
 
-        return "index.jsp";
+        return "formSede.jsp";
 
     }
     
