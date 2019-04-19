@@ -7,7 +7,7 @@ public class Sede {
     private String cidade;
     private String bairro;
     private String telefone;
-    private String paginaWeb;
+    private String site;
 
     /**
      * @return the nome
@@ -80,19 +80,17 @@ public class Sede {
     }
 
     /**
-     * @return the paginaWeb
+     * @return the site
      */
-    public String getPaginaWeb() {
-        return paginaWeb;
+    public String getSite() {
+        return site;
     }
 
     /**
-     * @param paginaWeb the paginaWeb to set
+     * @param pagina the site to set
      */
-    public void setPaginaWeb(String paginaWeb) {
-        this.paginaWeb = paginaWeb;
-    }
-
-    
+    public void setSite(String site) {
+        this.site = site;
+    }  
 
 }

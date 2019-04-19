@@ -12,7 +12,7 @@
 
     <h1>Cadastrar Sede</h1>
 
-    <form method="POST">
+    <form action="resultSede.html" method="POST">
 
         Nome: <input type="text" value="" name="nome"/>
         Estado: <input type="text" value="" name="estado"/>
