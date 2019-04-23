@@ -29,5 +29,21 @@ public class IndexController {
 
         return mv;
     }
+
+    
+    @RequestMapping({"sedes.html"})
+    public ModelAndView sedes() {
+
+        ModelAndView mv = new ModelAndView();
+
+        mv.setViewName("sede-list");
+
+//        List<Sede> sedes = sedes().findAll;
+
+//        List<Sede> sedes = sedes().findAll;
+//        mv.addObject("sedes", sedes);
+        
+        return mv;
+    }
     
 }
