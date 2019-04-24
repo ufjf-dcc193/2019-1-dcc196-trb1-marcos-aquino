@@ -7,10 +7,10 @@
         <h1 align="center">Voluntários</h1>
     </div>
     <div class="card-body text-left">
-        <form class="text-left" action="cadastrar_membro.html" method="POST">
-            <input type="hidden" name="id" value="${membro.getId()}">
+        <form class="text-left" action="cadastrar_voluntario.html" method="POST">
+            <input type="hidden" name="id" value="${voluntario.getId()}">
             <label>Sede:</label>
-            <select name="sede" class="form-control form-group" value="${membro.getSede().getNome_fantasia()}">                
+            <select name="sede" class="form-control form-group" value="${voluntario.getSede().getNome_fantasia()}">                
                 <c:forEach var="rep" items="${sede}">
                     <option value="${rep.getId()}">
                         ${rep.getNome_fantasia()}
@@ -18,18 +18,18 @@
                 </c:forEach>
             </select>
             <label>Nome:</label>
-            <input type="text" name="nome" class="form-control form-group" value="${membro.getNome()}">
+            <input type="text" name="nome" class="form-control form-group" value="${voluntario.getNome()}">
             <label>Função:</label>
-            <input type="text" name="funcao" class="form-control form-group" value="${membro.getFuncao()}">
+            <input type="text" name="funcao" class="form-control form-group" value="${voluntario.getFuncao()}">
             <label>Email:</label>
-            <input type="email" name="email" type="text" class="form-control form-group" value="${membro.getEmail()}">
+            <input type="email" name="email" type="text" class="form-control form-group" value="${voluntario.getEmail()}">
             <label>Data entrada:</label>
-            <input name="data_entrada" type="text" class="form-control form-group datepicker" value="${membro.getData_entrada()}">
+            <input name="data_entrada" type="text" class="form-control form-group datepicker" value="${voluntario.getData_entrada()}">
             <label>Data saída:</label>
-            <input name="data_saida" type="text" class="form-control form-group datepicker" value="${membro.getData_saida()}">
+            <input name="data_saida" type="text" class="form-control form-group datepicker" value="${voluntario.getData_saida()}">
             <div class="text-right"><br />
                 <button type="submit" class="btn btn-primary btm-sm">OK</button>
-                <a class="btn btn-danger" href="membro.html">Cancelar</a>
+                <a class="btn btn-danger" href="voluntario.html">Cancelar</a>
             </div>
         </form>
     </div>

@@ -7,7 +7,7 @@
         <h1 align="center">Atuações</h1>
     </div>
     <div class="card-body text-left">
-        <form class="text-left" action="cadastrar_atividade.html" method="POST">
+        <form class="text-left" action="cadastrar_atuacao.html" method="POST">
             <label>Sede:</label>
             <select name="sede" class="form-control form-group">
                 <option value="">...</option>
@@ -22,7 +22,7 @@
             <label>Descrição:</label>
             <input type="text" name="descricao" class="form-control form-group">
             <label>Hora Assistencial:</label>
-            <input type="number" name="hora_assistencial" class="form-control form-group">
+           <!-- <input type="number" name="hora_assistencial" class="form-control form-group">
             <label>Hora Jurídica:</label>
             <input type="number" name="hora_juridica" class="form-control form-group">
             <label>Hora Executiva:</label>
@@ -32,10 +32,10 @@
             <label>Data início:</label>
             <input name="data_inicio" type="text" class="form-control form-group datepicker">
             <label>Data fim:</label>
-            <input name="data_fim" type="text" class="form-control form-group datepicker">
+            <input name="data_fim" type="text" class="form-control form-group datepicker">  -->
             <div class="text-right"><br />
                 <button type="submit" class="btn btn-primary btm-sm">OK</button>
-                <a class="btn btn-danger" href="atividade.html">Cancelar</a>
+                <a class="btn btn-danger" href="atuacao.html">Cancelar</a>
             </div>
         </form>
     </div>

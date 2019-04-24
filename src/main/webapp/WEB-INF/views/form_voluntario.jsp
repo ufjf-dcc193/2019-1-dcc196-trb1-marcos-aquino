@@ -7,7 +7,7 @@
         <h1 align="center">Voluntários</h1>
     </div>
     <div class="card-body text-left">
-        <form class="text-left" action="cadastrar_membro.html" method="POST">
+        <form class="text-left" action="cadastrar_voluntario.html" method="POST">
             <label>Sede:</label>
             <select name="sede" class="form-control form-group">
                 <option value="">...</option>
@@ -29,7 +29,7 @@
             <input name="data_saida" type="text" class="form-control form-group datepicker">
             <div class="text-right"><br />
                 <button type="submit" class="btn btn-primary btm-sm">OK</button>
-                <a class="btn btn-danger" href="membro.html">Cancelar</a>
+                <a class="btn btn-danger" href="voluntario.html">Cancelar</a>
             </div>
         </form>
     </div>

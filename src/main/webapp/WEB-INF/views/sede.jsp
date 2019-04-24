@@ -7,7 +7,7 @@
         <h1 align="center">Sedes</h1>
     </div>
     <div class="card-body text-left">
-        <a class="btn btn-primary btn-sm" href="sede_form.html" role="button"><i class="fa fa-plus"
+        <a class="btn btn-primary btn-sm" href="form_sede.html" role="button"><i class="fa fa-plus"
                 aria-hidden="true"></i>
         </a><br /><br />
 
@@ -36,7 +36,7 @@
                     <td>${rep.totalHoras()} <i class="far fa-clock"></i></td>
                     <td>
                         <div class="row">
-                            <form method="POST" action="sede_editar.html">
+                            <form method="POST" action="edt_sede.html">
                                 <input type="hidden" name="id" value="${rep.getId()}">
                                 <button type="submit" class="btn btn-info btn-sm"><i class="far fa-edit"></i></button>
                             </form>
@@ -51,9 +51,7 @@
 
         </table>
     </div>
-    <div class="card-footer text-muted text-right">
-        Sedes
-    </div>
+
 </div>
 
 <c:import url="/WEB-INF/views/rodape.jsp" />

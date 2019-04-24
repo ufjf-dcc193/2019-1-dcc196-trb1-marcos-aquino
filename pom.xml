@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.ufjf.dcc193</groupId>
-	<artifactId>ongplus</artifactId>
+	<artifactId>patas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -61,7 +61,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration> 
-					<mainClass>br.ufjf.dcc193.ongplus.MainApplication</mainClass>
+					<mainClass>br.ufjf.dcc193.patas.MainApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

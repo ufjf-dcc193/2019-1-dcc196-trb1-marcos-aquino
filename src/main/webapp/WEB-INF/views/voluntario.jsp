@@ -7,7 +7,7 @@
         <h1 align="center">Voluntários</h1>
     </div>
     <div class="card-body text-left">
-        <a class="btn btn-primary btn-sm" href="membro_form.html" role="button"><i class="fa fa-plus"
+        <a class="btn btn-primary btn-sm" href="form_voluntario.html" role="button"><i class="fa fa-plus"
                 aria-hidden="true"></i>
         </a><br /><br />
 
@@ -21,7 +21,7 @@
                 <th>Data Saída</th>
                 <th>Ações</th>
             </tr>
-            <c:forEach items="${membro}" var="rep">
+            <c:forEach items="${voluntario}" var="rep">
                 <tr>
                     <td>${rep.getSede().getNome_fantasia()}</td>
                     <td>${rep.getNome()}</td>
@@ -30,7 +30,7 @@
                     <td>${rep.getData_entrada()}</td>
                     <td>${rep.getData_saida()}</td>                    
                     <td>
-                        <form method="POST" action="membro_editar.html">
+                        <form method="POST" action="edt_voluntario.html">
                             <input type="hidden" name="id" value="${rep.getId()}">
                             <button type="submit" class="btn btn-info btn-sm"><i class="far fa-edit"></i></button>
                         </form>
@@ -40,9 +40,7 @@
             
         </table>
     </div>
-    <div class="card-footer text-muted text-right">
-        Voluntários
-    </div>
+
 </div>
 
 <c:import url="/WEB-INF/views/rodape.jsp" />
