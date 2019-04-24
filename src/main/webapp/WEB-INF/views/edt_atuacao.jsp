@@ -2,12 +2,12 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
 
-<div class="card text-center">
-    <div class="card-header">
+<div>
+    <div>
         <h1 align="center">Atuação</h1>
     </div>
-    <div class="card-body text-left">
-        <form class="text-left" action="atuacao_alterar.html" method="POST">
+    <div>
+        <form action="atuacao_alterar.html" method="POST">
             <input type="hidden" name="id" value="${atuacao.getId()}">
             <label>Sede:</label>
             <select name="sede" class="form-control form-group" value="${atuacao.getSede().getNome_fantasia()}" >                
@@ -39,9 +39,7 @@
             </div>
         </form>
     </div>
-    <div class="card-footer text-muted text-right">
-        Atuações
-    </div>
+
 </div>
 
 <c:import url="/WEB-INF/views/rodape.jsp" />

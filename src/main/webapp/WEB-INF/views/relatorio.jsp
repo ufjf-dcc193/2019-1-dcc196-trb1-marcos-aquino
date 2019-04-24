@@ -3,11 +3,11 @@
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
 
 
-<div class="card text-center">
-    <div class="card-header">
+<div>
+    <div>
         <h1 align="center">Relatório</h1>
     </div>
-    <div class="card-body text-left">        
+    <div>        
         <table class="table">
             <tr>
                 <th>Sede</th>
@@ -21,9 +21,7 @@
             </c:forEach>
         </table>
     </div>
-    <div class="card-footer text-muted text-right">
-        Relatório
-    </div>
+
 </div>
 
 <c:import url="/WEB-INF/views/rodape.jsp" />

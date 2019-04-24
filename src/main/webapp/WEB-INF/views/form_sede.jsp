@@ -1,11 +1,11 @@
 <%@page pageEncoding="utf-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
-<div class="card text-center">
-    <div class="card-header">
+<div>
+    <div>
         <h1 align="center">Sedes</h1>
     </div>
-    <div class="card-body text-left">
+    <div>
         <form class="text-left" action="cadastrar_sede.html" method="POST">
             <label>Nome:</label>
             <input type="text" name="nome_fantasia" class="form-control form-group">
@@ -25,8 +25,6 @@
             </div>
         </form>
     </div>
-    <div class="card-footer text-muted text-right">
-        Sedes
-    </div>
+
 </div>
 <c:import url="/WEB-INF/views/rodape.jsp" />

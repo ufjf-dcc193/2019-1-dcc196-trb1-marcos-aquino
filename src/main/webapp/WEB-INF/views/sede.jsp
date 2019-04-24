@@ -2,11 +2,11 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
 
-<div class="card text-center">
-    <div class="card-header">
+<div>
+    <div>
         <h1 align="center">Sedes</h1>
     </div>
-    <div class="card-body text-left">
+    <div>
         <a class="btn btn-primary btn-sm" href="form_sede.html" role="button"><i class="fa fa-plus"
                 aria-hidden="true"></i>
         </a><br /><br />

@@ -16,13 +16,10 @@
 </head>
 
 <body>
-    <nav style="background-color: lightslategray" class="navbar navbar-expand-lg navbar-light">
-        <a style="padding: 20px" class="navbar-brand" href="index.html">PATAS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div style="padding-left: 50px" class="collapse navbar-collapse" id="navbarNavDropdown">
+    <nav class="navbar">
+        <a href="index.html">PATAS</a>
+
+        <div>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="sede.html">Sedes</a>

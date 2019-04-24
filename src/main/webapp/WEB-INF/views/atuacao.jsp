@@ -2,12 +2,12 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
 
-<div class="card text-center">
-    <div class="card-header">
-        <h1 align="center">Atuação</h1>
+<div>
+    <div>
+        <h1 align="left">Atuação</h1>
     </div>
-    <div class="card-body text-left">
-        <a class="btn btn-primary btn-sm" href="form_atuacao.html" role="button"><i class="fa fa-plus"
+    <div>
+        <a href="form_atuacao.html" role="button"><i class="fa fa-plus"
                 aria-hidden="true"></i>
         </a><br /><br />
 

@@ -2,11 +2,11 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="/WEB-INF/views/cabecalho.jsp" />
 
-<div class="card text-center">
-    <div class="card-header">
+<div>
+    <div>
         <h1 align="center">Voluntários</h1>
     </div>
-    <div class="card-body text-left">
+    <div>
         <form class="text-left" action="cadastrar_voluntario.html" method="POST">
             <label>Sede:</label>
             <select name="sede" class="form-control form-group">
@@ -33,9 +33,7 @@
             </div>
         </form>
     </div>
-    <div class="card-footer text-muted text-right">
-        Voluntários
-    </div>
+
 </div>
 
 <c:import url="/WEB-INF/views/rodape.jsp" />
