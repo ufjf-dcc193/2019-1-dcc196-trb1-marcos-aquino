@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.ufjf.dcc193</groupId>
-	<artifactId>patas</artifactId>
+	<artifactId>ongplus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -26,45 +26,32 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
-    		<groupId>org.apache.tomcat</groupId>
-    		<artifactId>tomcat-jasper</artifactId>
-   			<version>9.0.17</version>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jasper</artifactId>
+			<version>9.0.16</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>			
 		</dependency>
 
 		<dependency>
-   			<groupId>org.springframework.boot</groupId>
-   			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
-  			<groupId>org.apache.derby</groupId>
- 			<artifactId>derby</artifactId>
-  			<scope>runtime</scope>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
-
-		<dependency>
-		   <groupId>javax.servlet</groupId>
-   			<artifactId>jstl</artifactId>
-   			<version>1.2</version>
-		</dependency>
-
-		<dependency>
-		   <groupId>mysql</groupId>
-   			<artifactId>mysql-connector-java</artifactId>
-   			<version>5.1.40</version>
-			<scope>compile</scope>
-		</dependency>		
 
 	</dependencies>
 
@@ -73,9 +60,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-
-				<configuration>
-					<mainClass>br.ufjf.patas.MainApplication</mainClass>
+				<configuration> 
+					<mainClass>br.ufjf.dcc193.ongplus.MainApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
