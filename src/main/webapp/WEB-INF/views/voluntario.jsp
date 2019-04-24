@@ -6,6 +6,11 @@
     <div>
         <h1 align="center">Voluntários</h1>
     </div>
+
+    <p class="lead">
+            Esses são nossos voluntários atuais. Pessoas que trabalham em prol de nossos animais.
+        </p>
+
     <div>
         <a class="btn btn-primary btn-sm" href="form_voluntario.html" role="button">Novo</a><br /><br />
 

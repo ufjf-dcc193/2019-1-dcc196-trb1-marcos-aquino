@@ -6,6 +6,11 @@
     <div>
         <h1>Sedes</h1>
     </div>
+
+    <p class="lead">
+            Confira a listagem de nossas sedes espalhadas pelo estado de Minas Gerais
+        </p>
+
     <div>
         <a class="btn btn-primary btn-sm" href="form_sede.html" role="button">Nova</a><br /><br />
 

@@ -28,8 +28,8 @@
             <label>Data saída:</label>
             <input name="data_saida" type="text" class="form-control form-group datepicker" value="${voluntario.getData_saida()}">
             <div class="text-right"><br />
-                <button type="submit" class="btn btn-primary btm-sm">OK</button>
-                <a class="btn btn-danger" href="voluntario.html">Cancelar</a>
+                <button type="submit" class="btn btn-outline-primary">OK</button>
+                <a class="btn btn-outline-danger" href="voluntario.html">Cancelar</a>
             </div>
         </form>
     </div>

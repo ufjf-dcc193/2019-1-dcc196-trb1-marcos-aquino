@@ -21,20 +21,9 @@
             <input type="text" name="titulo" class="form-control form-group" value="${atuacao.getTitulo()}">
             <label>Descrição:</label>
             <input type="text" name="descricao" class="form-control form-group" value="${atuacao.getDescricao()}">
-            <!--<label>Hora Assistencial:</label>
-            <input type="number" name="hora_assistencial" class="form-control form-group" value="${atuacao.getHora_assistencial()}">
-            <label>Hora Jurídica:</label>
-            <input type="number" name="hora_juridica" class="form-control form-group" value="${atuacao.getHora_juridica()}">
-            <label>Hora Executiva:</label>
-            <input type="number" name="hora_executiva" class="form-control form-group" value="${atuacao.getHora_executiva()}">
-            <label>Hora Financeira:</label>
-            <input type="number" name="hora_financeira" class="form-control form-group" value="${atuacao.getHora_financeira()}">
-            <label>Data início:</label>
-            <input name="data_inicio" type="text" class="form-control form-group datepicker" value="${atuacao.getData_inicio()}">
-            <label>Data fim:</label>
-            <input name="data_fim" type="text" class="form-control form-group datepicker" value="${atuacao.getData_fim()}"> -->
+
             <div class="text-right"><br />
-                <button type="submit" class="btn btn-primary btm-sm">OK</button>
+                <button type="submit" class="btn btn-primary btm-sm">Cadastrar</button>
                 <a class="btn btn-danger" href="atuacao.html">Cancelar</a>
             </div>
         </form>

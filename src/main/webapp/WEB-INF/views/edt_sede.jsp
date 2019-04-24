@@ -21,8 +21,8 @@
             <label>Telefone:</label>
             <input name="telefone" type="text" class="form-control form-group" value="${sede.getTelefone()}">
             <div class="text-right"><br />
-                <button type="submit" class="btn btn-primary btm-sm">OK</button>
-                <a class="btn btn-danger" href="sede.html">Cancelar</a>
+                <button type="submit" class="btn btn-outline-primary">OK</button>
+                <a class="btn btn-outline-danger" href="sede.html">Cancelar</a>
             </div>
         </form>
     </div>
