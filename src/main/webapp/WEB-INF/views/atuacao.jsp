@@ -4,47 +4,48 @@
 
 <div>
     <div>
-        <h1 align="left">Atuação</h1>
+        <h1>Atuação</h1>
     </div>
     <div>
-        <a href="form_atuacao.html" role="button"><i class="fa fa-plus"
-                aria-hidden="true"></i>
-        </a><br /><br />
+        <a href="form_atuacao.html" role="button">Adicionar</a><br /><br />
 
         <table class="table">
+                <thead class="thead-dark">
             <tr>
                 <th>Sede</th>
                 <th>Título</th>
                 <th>Descrição</th>
-                <!--<th>Data Início</th>
+                <th>Data Início</th>
                 <th>Data Fim</th>
                 <th>Assistencial</th>
                 <th>Jurídica</th>
                 <th>Executiva</th>
                 <th>Financeira</th>
-                <th>Ações</th>-->
+                <th>Ações</th>
             </tr>
             <c:forEach items="${atuacao}" var="rep">
                 <tr>
                     <td>${rep.getSede().getNome_fantasia()}</td>
                     <td>${rep.getTitulo()}</td>
                     <td>${rep.getDescricao()}</td>
-                    <!--<td>${rep.getData_inicio()}</td>
+                    <td>${rep.getData_inicio()}</td>
                     <td>${rep.getData_fim()}</td>                                     
-                    <td>${rep.getHora_assistencial()} <i class="far fa-clock"></i></td>                                     
-                    <td>${rep.getHora_juridica()} <i class="far fa-clock"></i></td>                                     
-                    <td>${rep.getHora_executiva()} <i class="far fa-clock"></i></td>                                     
-                    <td>${rep.getHora_financeira()} <i class="far fa-clock"></i></td>   -->                                  
+                    <td>${rep.getHora_assistencial()}</td>                                     
+                    <td>${rep.getHora_juridica()}</td>                                     
+                    <td>${rep.getHora_executiva()}</td>                                     
+                    <td>${rep.getHora_financeira()}</td>                                
                     <td>
                         <form method="POST" action="edt_atuacao.html">
                             <input type="hidden" name="id" value="${rep.getId()}">
-                            <button type="submit" class="btn btn-info btn-sm"><i class="far fa-edit"></i></button>
+                            <button type="submit" class="btn btn-outline-primary">Editar</button>
                         </form>
                     </td>
                 </tr>
             </c:forEach>
         </table>
     </div>
+
+    <img src="/img/banner.jpg" class="img-fluid" alt="Imagem responsiva">
 
 </div>
 

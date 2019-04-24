@@ -5,10 +5,11 @@
 
 <div>
     <div>
-        <h1 align="center">Relatório</h1>
+        <h1 align="center">Listagem</h1>
     </div>
     <div>        
         <table class="table">
+                <thead class="thead-dark">
             <tr>
                 <th>Sede</th>
                 <th>Total</th>
@@ -16,11 +17,13 @@
             <c:forEach items="${relatorio}" var="rep">
                 <tr>
                     <td>${rep.getNome_fantasia()}</td>
-                    <td>${rep.totalHoras()} <i class="far fa-clock"></i></td>
+                    <td>${rep.totalHoras()}</td>
                 </tr>
             </c:forEach>
         </table>
     </div>
+
+    <img src="/img/banner.jpg" class="img-fluid" alt="Imagem responsiva">
 
 </div>
 

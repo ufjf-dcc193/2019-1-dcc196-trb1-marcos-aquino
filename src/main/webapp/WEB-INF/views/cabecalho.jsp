@@ -12,15 +12,17 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 
-    <title>patas</title>
+    <title>Bem-vindo!</title>
 </head>
 
-<body>
-    <nav class="navbar">
-        <a href="index.html">PATAS</a>
+<body style="background-color: lightcyan">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">  
 
-        <div>
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" style="padding-left: 200px">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="sede.html">Sedes</a>
                 </li>
@@ -30,12 +32,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="atuacao.html">Atuações</a>
                 </li>
-                <!--<li class="nav-item">
-                    <a class="nav-link" href="relatorio.html">Relatório</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sobre.html">Sobre</a>
-                </li>-->
+                    <a class="nav-link" href="relatorio.html">Lista</a>
+                </li>
+
             </ul>
         </div>
     </nav>

@@ -4,18 +4,17 @@
 
 <div>
     <div>
-        <h1 align="center">Sedes</h1>
+        <h1>Sedes</h1>
     </div>
     <div>
-        <a class="btn btn-primary btn-sm" href="form_sede.html" role="button"><i class="fa fa-plus"
-                aria-hidden="true"></i>
-        </a><br /><br />
+        <a class="btn btn-primary btn-sm" href="form_sede.html" role="button">Nova</a><br /><br />
 
         <table class="table">
+        <thead class="thead-dark">
             <tr>
-                <!-- <th>ID</th> -->
-                <th>Nome Fantasia</th>
-                <th>Endereço</th>
+
+                <th>Nome</th>
+                <th>Site</th>
                 <th>Cidade</th>
                 <th>Bairro</th>
                 <th>Estado</th>
@@ -26,23 +25,23 @@
 
             <c:forEach items="${sede}" var="rep">
                 <tr>
-                    <!-- <td>${rep.getId()}</td> -->
+
                     <td>${rep.getNome_fantasia()}</td>
                     <td>${rep.getEndereco()}</td>
                     <td>${rep.getCidade()}</td>
                     <td>${rep.getBairro()}</td>
                     <td>${rep.getEstado()}</td>
                     <td>${rep.getTelefone()}</td>
-                    <td>${rep.totalHoras()} <i class="far fa-clock"></i></td>
+                    <td>${rep.totalHoras()}</td>
                     <td>
                         <div class="row">
                             <form method="POST" action="edt_sede.html">
                                 <input type="hidden" name="id" value="${rep.getId()}">
-                                <button type="submit" class="btn btn-info btn-sm"><i class="far fa-edit"></i></button>
+                                <button type="submit" class="btn btn-outline-primary">Editar</button>
                             </form>
                             <form method="POST" action="sede_excluir.html">
                                 <input type="hidden" name="id" value="${rep.getId()}">
-                                <button type="submit" class="btn btn-danger btn-sm"><i class="far fa-trash-alt"></i></button>
+                                <button type="submit" class="btn btn-outline-danger">Excluir</i></button>
                             </form>
                         </div>
                     </td>
@@ -51,6 +50,8 @@
 
         </table>
     </div>
+
+    <img src="/img/banner.jpg" class="img-fluid" alt="Imagem responsiva">
 
 </div>
 

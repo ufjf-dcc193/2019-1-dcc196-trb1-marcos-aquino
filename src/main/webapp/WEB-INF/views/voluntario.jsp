@@ -7,11 +7,10 @@
         <h1 align="center">Voluntários</h1>
     </div>
     <div>
-        <a class="btn btn-primary btn-sm" href="form_voluntario.html" role="button"><i class="fa fa-plus"
-                aria-hidden="true"></i>
-        </a><br /><br />
+        <a class="btn btn-primary btn-sm" href="form_voluntario.html" role="button">Novo</a><br /><br />
 
         <table class="table">
+                <thead class="thead-dark">
             <tr>
                 <th>Sede</th>
                 <th>Nome</th>
@@ -32,7 +31,11 @@
                     <td>
                         <form method="POST" action="edt_voluntario.html">
                             <input type="hidden" name="id" value="${rep.getId()}">
-                            <button type="submit" class="btn btn-info btn-sm"><i class="far fa-edit"></i></button>
+                            <button type="submit" class="btn btn-outline-primary">Editar</button>
+                        </form>
+                        <form method="POST" action="">
+                            <input type="hidden" name="id" value="${rep.getId()}">
+                            <button type="submit" class="btn btn-outline-danger">Excluir</i></button>
                         </form>
                     </td>
                 </tr>
@@ -40,6 +43,8 @@
             
         </table>
     </div>
+
+    <img src="/img/banner.jpg" class="img-fluid" alt="Imagem responsiva">
 
 </div>
 
