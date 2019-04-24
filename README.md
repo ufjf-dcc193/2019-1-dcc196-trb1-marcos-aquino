@@ -7,8 +7,8 @@ Professor: Igor Knop
 
 Descrição
 
-    Uma ong responsável pelo cuidado de animais indefesos, 
-    abandonados e mal tratados. 
+Sistema da ONG PATAS, que é responsável pelo cuidado de animais indefesos, 
+abandonados e mal tratados. 
 
 Instalação
 
